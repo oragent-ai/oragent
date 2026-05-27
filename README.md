@@ -6,6 +6,8 @@
 [![Linux](https://img.shields.io/badge/Linux-supported-FCC624?logo=linux&logoColor=black)](https://pypi.org/project/oragent/)
 [![License: Free Use](https://img.shields.io/badge/License-Free%20Use-orange.svg)](LICENSE)
 
+**English** · [简体中文](README_zh-CN.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português](README_pt.md) · [Русский](README_ru.md)
+
 > An Agent Supervisor for AI coding agents. A state-aware cockpit so you
 > see which agent needs you, auto-handle routine permissions, and stay
 > in flow.
@@ -128,11 +130,6 @@ Three free things help just as much: star this repository, share
 - Refunds: <https://oragent.org/refunds>
 - Support: <https://oragent.org/support>
 
-## 📝 About the name
-
-Oragent, pronounced "or-AY-jent", is a contraction of "operator" +
-"agent". Unrelated to *Oragenics* (OGEN), a biopharmaceutical company.
-
 ## 👤 Author
 
-Built by Shuangrui Chen. [![Website](https://img.shields.io/badge/website-chenshuangrui.com-orange?logo=safari&logoColor=white)](https://chenshuangrui.com)
+Built by [Shuangrui Chen](https://chenshuangrui.com).
