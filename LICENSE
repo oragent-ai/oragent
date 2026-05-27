@@ -1,0 +1,170 @@
+Oragent Free Use License
+Version 1.0, 2026-05-27
+
+Copyright (c) 2025-2026 Shuangrui Chen ("the Author"). All rights reserved.
+
+Oragent ("the Software") is closed-source software distributed at no cost.
+This license is the agreement between the Author and you ("the Licensee")
+covering your use of the Software. It is NOT an OSI-approved Open Source
+license and is NOT a Free Software Foundation Free Software license. The
+Software is source-unavailable proprietary software offered at no fee.
+
+1. GRANT OF LICENSE
+
+The Author grants the Licensee a worldwide, royalty-free, non-exclusive,
+non-transferable, revocable (only on breach, per section 8) license to:
+
+    (a) install, run, and use the Software on any number of devices the
+        Licensee operates, for any lawful purpose, including personal use
+        and commercial use inside the Licensee's own organization;
+
+    (b) make backup copies as reasonably needed for that use; and
+
+    (c) write, distribute, and use third-party plugins or integrations
+        against the Software's published plugin interfaces, on the terms
+        the Licensee chooses for that plugin code.
+
+No other rights are granted by implication, estoppel, or otherwise.
+
+2. RESTRICTIONS
+
+The Licensee may NOT, without prior written permission from the Author:
+
+    (a) redistribute, sell, rent, lease, sublicense, host as a paid service
+        or hosted product, or otherwise make the Software available to
+        third parties as a substitute for them obtaining their own copy
+        from the official distribution channels ("Official Channels":
+        the `oragent` package on PyPI, the `Oragent.app` build on the
+        official Releases CDN, and any future channel the Author
+        publicly designates);
+
+    (b) reverse engineer, decompile, disassemble, deobfuscate, or
+        otherwise attempt to derive source code, design, or internal
+        structure from any compiled, bytecode, or obfuscated form of
+        the Software, except to the minimum extent expressly permitted
+        by applicable law that cannot be lawfully waived by contract;
+
+    (c) modify, fork, or create derivative works of the Software for
+        distribution. (Local modifications kept private, for the
+        Licensee's own use only, are permitted.);
+
+    (d) remove, alter, or obscure this license, copyright notices, or
+        attribution embedded in the Software or its distribution
+        artifacts;
+
+    (e) use the "Oragent" name, the Oragent logo, or any confusingly
+        similar mark to imply endorsement of, or affiliation with, a
+        fork, derivative, third-party product, or third-party service.
+        Trademark terms are summarized at https://oragent.org/terms.
+
+3. NO FEE, NO SUBSCRIPTION
+
+The Software is, and is intended to remain, available at no cost for the
+permitted uses in section 1. The Author may, in the future, offer
+optional paid features, paid services, paid hosting, or paid support
+alongside the Software; doing so will not move features that exist in
+the base Software at the time of this license behind a fee for the
+Licensee's existing scope of use.
+
+4. CLOSED SOURCE
+
+The Software is and may continue to be distributed in compiled, bytecode,
+obfuscated, or otherwise non-source form. The Author has no obligation
+to provide source code, build scripts, design documents, or internal
+technical documentation. This license does not grant the Licensee any
+right of access to those materials.
+
+5. UPDATES, CHANNELS, AND DISCONTINUATION
+
+The Author may, at any time and without notice:
+
+    (a) modify the Software, including adding, removing, or changing
+        features;
+
+    (b) change, add, or retire distribution channels; or
+
+    (c) stop publishing new releases of the Software, withdraw it from
+        any channel, or rename it.
+
+Copies of the Software that the Licensee already lawfully obtained
+remain usable by the Licensee under this license, subject to section 8.
+
+6. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+THE LICENSEE BEARS THE ENTIRE RISK OF, AND IS SOLELY RESPONSIBLE FOR,
+ANY USE OF THE SOFTWARE, INCLUDING ANY ACTION TAKEN BY ANY AI AGENT OR
+OTHER PROCESS THE LICENSEE LAUNCHES INSIDE THE SOFTWARE.
+
+7. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING WITHOUT LIMITATION LOST
+DATA, LOST WORK, LOST REVENUE, LOST PROFITS, OR DAMAGE TO SYSTEMS)
+ARISING OUT OF OR IN CONNECTION WITH THE USE OF, OR INABILITY TO USE,
+THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND
+WHETHER THE CLAIM IS BASED ON WARRANTY, CONTRACT, TORT, STATUTE, OR ANY
+OTHER LEGAL THEORY. THE AUTHOR'S TOTAL CUMULATIVE LIABILITY UNDER THIS
+LICENSE IS LIMITED TO THE AMOUNT, IF ANY, THE LICENSEE ACTUALLY PAID
+THE AUTHOR FOR THE SOFTWARE, WHICH FOR A FREELY-DISTRIBUTED COPY IS
+ZERO.
+
+If a court of competent jurisdiction finds any portion of section 6 or
+section 7 unenforceable, the remainder of those sections and of this
+license remains in effect to the maximum extent permitted by law.
+
+8. TERMINATION
+
+This license terminates automatically, immediately, and without notice
+if the Licensee breaches any of its terms. On termination, the Licensee
+must stop all use of the Software and destroy all copies of it under
+the Licensee's control. Sections 2(b), 2(d), 2(e), 6, 7, 8, 9, and 10
+survive termination.
+
+9. NAME, MARK, AND SITE CONTENT
+
+The name "Oragent", the Oragent logo and app icon, and the editorial
+content of the Oragent website (copy, screenshots, illustrations,
+design system) are NOT licensed under this license. They remain the
+property of the Author. Personal, editorial, and clearly-attributed
+reference use (linking, blog posts, talks, write-ups, README mentions)
+is permitted without separate permission. Commercial use of the name,
+logo, or mark requires prior written permission.
+
+10. MISCELLANEOUS
+
+(a) Governing law and venue. This license is governed by, and construed
+    in accordance with, generally accepted principles of contract law.
+    Any dispute that cannot be resolved amicably shall be addressed in
+    a court of competent jurisdiction in the Author's place of
+    residence, unless mandatory consumer-protection law of the
+    Licensee's residence provides otherwise.
+
+(b) Entire agreement. This license is the entire agreement between the
+    Licensee and the Author concerning the Software and supersedes any
+    prior agreement on the same subject.
+
+(c) Severability. If any provision of this license is held
+    unenforceable, the remaining provisions remain in full force and
+    effect, and the unenforceable provision shall be construed to come
+    as close as possible to the original intent within the bounds of
+    enforceability.
+
+(d) No waiver. Failure by the Author to enforce any provision of this
+    license is not a waiver of the right to enforce it later.
+
+(e) Versions. The Author may publish revised versions of this license.
+    A revised version applies only to copies of the Software
+    distributed on or after its publication date. Previously
+    distributed copies remain governed by the version under which they
+    were obtained.
+
+(f) Contact. For permission requests, commercial-use inquiries, or
+    license questions, open an issue at
+    https://github.com/oragent-ai/oragent/issues. Sensitive matters can
+    be moved to a private channel from there.
+
+END OF LICENSE
