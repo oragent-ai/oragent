@@ -1,17 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 🌐 Homepage and screenshots
-    url: https://oragent.org
-    about: Product overview, install command, dashboard screenshots.
-  - name: 📥 Install via pipx
-    url: https://pypi.org/project/oragent/
-    about: pipx install oragent — the recommended install path.
-  - name: 📦 macOS app downloads
-    url: https://github.com/oragent-ai/oragent/releases/latest
-    about: Oragent.app, notarized, from the official Releases CDN.
+  - name: 💬 Ask a question (Discussions / Q&A)
+    url: https://github.com/oragent-ai/oragent/discussions/categories/q-a
+    about: "How do I…", "Does Oragent support…", "Why does X happen?" — Discussions Q&A is the right place. The issue tracker is for concrete bugs and feature requests.
+  - name: 💡 Share an idea (Discussions / Ideas)
+    url: https://github.com/oragent-ai/oragent/discussions/categories/ideas
+    about: Half-formed thoughts, what-ifs, "wouldn't it be nice if". Concrete proposals can still come in as Feature requests.
   - name: 🔒 Report a vulnerability privately
     url: https://github.com/oragent-ai/oragent/security/advisories/new
-    about: Don't open a public issue for security problems. Use private advisories.
+    about: Don't open a public issue for security problems. Use a private advisory.
+  - name: 📥 Install or upgrade help
+    url: https://pypi.org/project/oragent/
+    about: pipx install oragent. For macOS app downloads, see Releases.
   - name: 💛 Support the project
     url: https://oragent.org/support
     about: Voluntary contributions, completely opt-in. Oragent stays free for everyone.
