@@ -1,0 +1,130 @@
+name: 🐛 Bug report
+description: Something Oragent does wrong — crash, hang, wrong state, broken keybind, render glitch.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file. Oragent is maintained by one
+        developer, and reproducible bug reports get fixed first.
+
+        Bugs in **Claude Code, Codex, or the AI provider's API** belong
+        upstream, not here. This tracker is for bugs in Oragent itself
+        (the supervisor TUI, the keybinds, the state classifier, the
+        Auto Pilot logic, the macOS app shell).
+
+  - type: input
+    id: version
+    attributes:
+      label: Oragent version
+      description: Run `oragent --version`, or check `pipx list`, or look at the About panel in the macOS app.
+      placeholder: "0.3.11"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install
+      options:
+        - pipx
+        - pip
+        - Oragent.app (macOS)
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: terminal
+    attributes:
+      label: Terminal emulator
+      description: Ghostty, iTerm2, Terminal.app, Alacritty, kitty, WezTerm, Warp, Hyper, etc. Include version if you know it.
+      placeholder: "Ghostty 1.1.1"
+    validations:
+      required: true
+
+  - type: input
+    id: tmux
+    attributes:
+      label: tmux version
+      description: Output of `tmux -V`.
+      placeholder: "tmux 3.5a"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent type
+      description: The plugin running in the session where the bug shows up.
+      options:
+        - Claude Code
+        - Codex
+        - Shell
+        - not session-specific (UI, keybind, render, install)
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: One paragraph describing the bug, with no speculation about cause.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A numbered list of exact keystrokes and commands. Reproducibility is the single biggest factor in fix speed.
+      placeholder: |
+        1. Start Oragent.
+        2. Press `n` to create a new Claude Code session.
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: bundle
+    attributes:
+      label: Bug bundle (optional)
+      description: If your build has the in-app Bug report dialog, attach the `.zip` it generates. Otherwise paste recent logs.
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, asciinema recordings, related issues, things you've already ruled out.
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: This is a bug in Oragent itself, not in Claude Code, Codex, or my AI provider.
+          required: true

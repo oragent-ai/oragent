@@ -1,0 +1,70 @@
+name: ✨ Feature request
+description: Something Oragent should do but doesn't.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Oragent's scope is deliberately narrow: an **Agent Supervisor**
+        for one human running multiple independent AI coding agents.
+        Requests that fit that scope get serious consideration.
+
+        Requests that would turn Oragent into a multi-agent
+        orchestrator, an agent-to-agent communication layer, a workflow
+        engine, a DAG runner, or a chat UI usually get respectfully
+        declined. Those are other tools (LangGraph, AutoGen, CrewAI,
+        n8n, OpenWebUI). Oragent stays on its shelf.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem you're hitting
+      description: Describe the actual friction in your workflow. Not the feature in disguise; the situation that made you reach for the issue tracker.
+      placeholder: |
+        When I'm running 4 Claude Code sessions in parallel, I lose
+        track of which one I last typed in, and end up scrolling to
+        find it...
+    validations:
+      required: true
+
+  - type: textarea
+    id: matters
+    attributes:
+      label: Why this matters
+      description: How often does this happen? What does it cost you when it happens?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you've tried
+      description: Workarounds, environment variables, other tools. "Nothing yet" is a valid answer.
+
+  - type: textarea
+    id: shape
+    attributes:
+      label: One shape this could take (optional)
+      description: A rough sketch, not a spec. Two sentences are plenty. Don't over-design.
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope honesty check
+      description: Pick the bucket you think this falls into. Helps triage and saves both of us time.
+      options:
+        - Inside scope (Agent Supervisor for one human, terminal-first)
+        - Adjacent (new plugin, new state, new keybind, new platform)
+        - Outside scope (orchestration, agent-to-agent, workflow engine, chat UI, web app)
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
