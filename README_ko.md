@@ -1,5 +1,6 @@
 # Oragent
 
+[![Website](https://img.shields.io/badge/Website-oragent.org-FF8800)](https://oragent.org)
 [![PyPI](https://img.shields.io/pypi/v/oragent)](https://pypi.org/project/oragent/)
 [![Python](https://img.shields.io/pypi/pyversions/oragent)](https://pypi.org/project/oragent/)
 [![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](https://github.com/oragent-ai/oragent/releases/latest)
@@ -11,6 +12,8 @@
 > AI 코딩 Agent를 위한 Agent Supervisor. 상태 인식 기반 콕핏으로 어떤
 > 에이전트가 당신을 기다리고 있는지 한눈에 보고, 반복적인 권한 승인을
 > 자동 처리하며, 몰입 상태를 유지합니다.
+
+🌐 **<https://oragent.org>**
 
 <div align="center">
   <img width="1728" alt="Oragent 대시보드" src="assets/dashboard.png" />

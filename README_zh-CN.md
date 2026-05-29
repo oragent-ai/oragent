@@ -1,5 +1,6 @@
 # Oragent
 
+[![Website](https://img.shields.io/badge/Website-oragent.org-FF8800)](https://oragent.org)
 [![PyPI](https://img.shields.io/pypi/v/oragent)](https://pypi.org/project/oragent/)
 [![Python](https://img.shields.io/pypi/pyversions/oragent)](https://pypi.org/project/oragent/)
 [![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](https://github.com/oragent-ai/oragent/releases/latest)
@@ -10,6 +11,8 @@
 
 > 面向 AI 编码 Agent 的 Agent 监督台。一个具备状态感知的驾驶舱，让你看清
 > 哪个 agent 在等你，自动处理常规权限请求，保持心流不被打断。
+
+🌐 **<https://oragent.org>**
 
 <div align="center">
   <img width="1728" alt="Oragent 驾驶舱" src="assets/dashboard.png" />

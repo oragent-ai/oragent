@@ -1,5 +1,6 @@
 # Oragent
 
+[![Website](https://img.shields.io/badge/Website-oragent.org-FF8800)](https://oragent.org)
 [![PyPI](https://img.shields.io/pypi/v/oragent)](https://pypi.org/project/oragent/)
 [![Python](https://img.shields.io/pypi/pyversions/oragent)](https://pypi.org/project/oragent/)
 [![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](https://github.com/oragent-ai/oragent/releases/latest)
@@ -11,6 +12,8 @@
 > Un Agent Supervisor pour vos agents IA de codage. Un cockpit conscient
 > d'état pour voir quel agent a besoin de vous, gérer automatiquement
 > les permissions routinières et rester dans le flux.
+
+🌐 **<https://oragent.org>**
 
 <div align="center">
   <img width="1728" alt="Tableau de bord Oragent" src="assets/dashboard.png" />

@@ -1,5 +1,6 @@
 # Oragent
 
+[![Website](https://img.shields.io/badge/Website-oragent.org-FF8800)](https://oragent.org)
 [![PyPI](https://img.shields.io/pypi/v/oragent)](https://pypi.org/project/oragent/)
 [![Python](https://img.shields.io/pypi/pyversions/oragent)](https://pypi.org/project/oragent/)
 [![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](https://github.com/oragent-ai/oragent/releases/latest)
@@ -12,6 +13,8 @@
 > состояний, чтобы видеть, какой агент ждёт вашего внимания,
 > автоматически обрабатывать рутинные запросы разрешений и оставаться
 > в потоке.
+
+🌐 **<https://oragent.org>**
 
 <div align="center">
   <img width="1728" alt="Дашборд Oragent" src="assets/dashboard.png" />
